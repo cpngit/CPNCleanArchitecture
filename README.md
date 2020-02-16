@@ -1,4 +1,4 @@
-# This is just is a kind of example to use best pratices of SOLID Principles and Clean Architecture. 
+# This is just a kind of example to use the best pratices of SOLID Principles and Clean Architecture. 
 
 
 
