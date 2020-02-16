@@ -1,0 +1,14 @@
+D:\sources\je-core\JECore.Domain\bin\Debug\netstandard2.0\CPN.Domain.deps.json
+D:\sources\je-core\JECore.Domain\bin\Debug\netstandard2.0\CPN.Domain.dll
+D:\sources\je-core\JECore.Domain\bin\Debug\netstandard2.0\CPN.Domain.pdb
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\CPN.Domain.AssemblyInfoInputs.cache
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\CPN.Domain.AssemblyInfo.cs
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\CPN.Domain.dll
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\CPN.Domain.pdb
+D:\sources\cpn\CPN.Domain\bin\Debug\netstandard2.0\CPN.Domain.deps.json
+D:\sources\cpn\CPN.Domain\bin\Debug\netstandard2.0\CPN.Domain.dll
+D:\sources\cpn\CPN.Domain\bin\Debug\netstandard2.0\CPN.Domain.pdb
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.0\CPN.Domain.AssemblyInfoInputs.cache
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.0\CPN.Domain.AssemblyInfo.cs
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.0\CPN.Domain.dll
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.0\CPN.Domain.pdb

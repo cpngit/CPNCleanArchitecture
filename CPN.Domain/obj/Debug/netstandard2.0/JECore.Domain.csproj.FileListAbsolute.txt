@@ -1,0 +1,8 @@
+D:\sources\je-core\JECore.Domain\bin\Debug\netstandard2.0\JECore.Domain.deps.json
+D:\sources\je-core\JECore.Domain\bin\Debug\netstandard2.0\JECore.Domain.dll
+D:\sources\je-core\JECore.Domain\bin\Debug\netstandard2.0\JECore.Domain.pdb
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\JECore.Domain.csproj.CoreCompileInputs.cache
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\JECore.Domain.AssemblyInfoInputs.cache
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\JECore.Domain.AssemblyInfo.cs
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\JECore.Domain.dll
+D:\sources\je-core\JECore.Domain\obj\Debug\netstandard2.0\JECore.Domain.pdb

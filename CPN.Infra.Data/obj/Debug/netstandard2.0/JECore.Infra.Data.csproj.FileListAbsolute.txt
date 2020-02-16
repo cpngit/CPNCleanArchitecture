@@ -1,0 +1,12 @@
+D:\sources\je-core\JECore.Infra.Data\bin\Debug\netstandard2.0\JECore.Infra.Data.deps.json
+D:\sources\je-core\JECore.Infra.Data\bin\Debug\netstandard2.0\JECore.Infra.Data.dll
+D:\sources\je-core\JECore.Infra.Data\bin\Debug\netstandard2.0\JECore.Infra.Data.pdb
+D:\sources\je-core\JECore.Infra.Data\bin\Debug\netstandard2.0\JECore.Domain.dll
+D:\sources\je-core\JECore.Infra.Data\bin\Debug\netstandard2.0\JECore.Domain.pdb
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.csprojAssemblyReference.cache
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.csproj.CoreCompileInputs.cache
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.AssemblyInfoInputs.cache
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.AssemblyInfo.cs
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.csproj.CopyComplete
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.dll
+D:\sources\je-core\JECore.Infra.Data\obj\Debug\netstandard2.0\JECore.Infra.Data.pdb
