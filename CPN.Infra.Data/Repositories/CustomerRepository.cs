@@ -1,24 +1,26 @@
-﻿using CPN.Domain.Interfaces.Repository;
-using CPN.Domain.Entities;
-using CPN.Infra.Data.Context;
-using System;
-using System.Collections.Generic;
+﻿using CPN.Model.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using CPN.Infra.Data.Interfaces;
 
 namespace CPN.Infra.Data.Repositories
 {
-    public class CustomerRepository : ICustomerRepository
+    public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
     {
-
-        private CPNDBContext _ctx;
-
-        public CustomerRepository(CPNDBContext ctx)
+        public CustomerRepository(DbContext context)
+            : base(context)
         {
-            _ctx = ctx;
+
         }
 
-        public IEnumerable<Customer> GetCustomers()
+        public Customer GetById(long id)
         {
-            return _ctx.Customers;
+            return this.FindBy(c => c.Id == id).FirstOrDefault();
+        }
+
+        public Customer GetByName(string name)
+        {
+            return this.FindBy(c => c.Name == name).FirstOrDefault();
         }
     }
 }

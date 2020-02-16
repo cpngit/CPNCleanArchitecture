@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CPN.Domain.Entities
+namespace CPN.Model.Entities
 {
-    public class Customer
+    public class Customer : AuditableEntity<int>
     {
         public int Id { get; set; }
         public string Name { get; set; }

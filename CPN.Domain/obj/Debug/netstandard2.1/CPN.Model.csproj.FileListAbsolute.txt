@@ -1,0 +1,8 @@
+D:\sources\cpn\CPN.Domain\bin\Debug\netstandard2.1\CPN.Model.deps.json
+D:\sources\cpn\CPN.Domain\bin\Debug\netstandard2.1\CPN.Model.dll
+D:\sources\cpn\CPN.Domain\bin\Debug\netstandard2.1\CPN.Model.pdb
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.1\CPN.Model.AssemblyInfoInputs.cache
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.1\CPN.Model.AssemblyInfo.cs
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.1\CPN.Model.dll
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.1\CPN.Model.pdb
+D:\sources\cpn\CPN.Domain\obj\Debug\netstandard2.1\CPN.Model.csprojAssemblyReference.cache

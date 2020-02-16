@@ -12,11 +12,13 @@ D:\sources\je-core\JECore.Application\obj\Debug\netstandard2.0\CPN.Application.p
 D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Application.deps.json
 D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Application.dll
 D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Application.pdb
-D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Domain.dll
-D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Domain.pdb
 D:\sources\cpn\CPN.Application\obj\Debug\netstandard2.0\CPN.Application.csprojAssemblyReference.cache
 D:\sources\cpn\CPN.Application\obj\Debug\netstandard2.0\CPN.Application.AssemblyInfoInputs.cache
 D:\sources\cpn\CPN.Application\obj\Debug\netstandard2.0\CPN.Application.AssemblyInfo.cs
 D:\sources\cpn\CPN.Application\obj\Debug\netstandard2.0\CPN.Application.csproj.CopyComplete
 D:\sources\cpn\CPN.Application\obj\Debug\netstandard2.0\CPN.Application.dll
 D:\sources\cpn\CPN.Application\obj\Debug\netstandard2.0\CPN.Application.pdb
+D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Model.dll
+D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Model.pdb
+D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Infra.Data.dll
+D:\sources\cpn\CPN.Application\bin\Debug\netstandard2.0\CPN.Infra.Data.pdb

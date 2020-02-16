@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CPN.Domain\CPN.Domain.csproj" />
+    <ProjectReference Include="..\CPN.Domain\CPN.Model.csproj" />
+    <ProjectReference Include="..\CPN.Infra.Data\CPN.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Authorization;
-using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using Swashbuckle.Swagger;
 
 namespace CPN.UI.WebAPI.Configuration.Authorization
 {
-    public class AuthorizeCheckOperationFilter : IOperationFilter
+    public class AuthorizeCheckOperationFilter : Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter
     {
         private readonly AdminApiConfiguration _adminApiConfiguration;
 
@@ -15,21 +16,24 @@ namespace CPN.UI.WebAPI.Configuration.Authorization
             _adminApiConfiguration = adminApiConfiguration;
         }
 
-        public void Apply(Operation operation, OperationFilterContext context)
+        public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {
             var hasAuthorize = context.MethodInfo.DeclaringType.GetCustomAttributes(true)
                 .Union(context.MethodInfo.GetCustomAttributes(true))
                 .OfType<AuthorizeAttribute>().Any();
 
-            if (hasAuthorize)
-            {
-                operation.Responses.Add("401", new Response { Description = "Unauthorized" });
-                operation.Responses.Add("403", new Response { Description = "Forbidden" });
+            //TODO update this part of the code to new framework version
 
-                operation.Security = new List<IDictionary<string, IEnumerable<string>>> {
-                    new Dictionary<string, IEnumerable<string>> {{"oauth2", new[] { _adminApiConfiguration.OidcApiName } }}
-                };
-            }
+            //if (hasAuthorize)
+            //{
+            //    operation.Responses.Add("401", new OpenApiResponse { Description = "Unauthorized" });
+            //    operation.Responses.Add("403", new OpenApiResponse { Description = "Forbidden" });
+
+            //    operation.Security = new List<IDictionary<string, IEnumerable<string>>> {
+            //        new Dictionary<string, IEnumerable<string>> {{"oauth2", new[] { _adminApiConfiguration.OidcApiName } }}
+            //    };
+            //}
         }
+
     }
 }

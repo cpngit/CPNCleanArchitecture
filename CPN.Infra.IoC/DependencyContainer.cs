@@ -1,6 +1,6 @@
 ﻿using CPN.Application.Interfaces;
 using CPN.Application.Services;
-using CPN.Domain.Interfaces.Repository;
+using CPN.Infra.Data.Interfaces;
 using CPN.Infra.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 

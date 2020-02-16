@@ -4,12 +4,12 @@
     "D:\\sources\\cpn\\CPN.Infra.Data\\CPN.Infra.Data.csproj": {}
   },
   "projects": {
-    "D:\\sources\\cpn\\CPN.Domain\\CPN.Domain.csproj": {
+    "D:\\sources\\cpn\\CPN.Domain\\CPN.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\sources\\cpn\\CPN.Domain\\CPN.Domain.csproj",
-        "projectName": "CPN.Domain",
-        "projectPath": "D:\\sources\\cpn\\CPN.Domain\\CPN.Domain.csproj",
+        "projectUniqueName": "D:\\sources\\cpn\\CPN.Domain\\CPN.Model.csproj",
+        "projectName": "CPN.Model",
+        "projectPath": "D:\\sources\\cpn\\CPN.Domain\\CPN.Model.csproj",
         "packagesPath": "C:\\Users\\cpn18\\.nuget\\packages\\",
         "outputPath": "D:\\sources\\cpn\\CPN.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -41,6 +41,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -88,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\sources\\cpn\\CPN.Domain\\CPN.Domain.csproj": {
-                "projectPath": "D:\\sources\\cpn\\CPN.Domain\\CPN.Domain.csproj"
+              "D:\\sources\\cpn\\CPN.Domain\\CPN.Model.csproj": {
+                "projectPath": "D:\\sources\\cpn\\CPN.Domain\\CPN.Model.csproj"
               }
             }
           }
@@ -111,7 +115,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[2.2.4, )"
+              "version": "[3.1.1.2, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",

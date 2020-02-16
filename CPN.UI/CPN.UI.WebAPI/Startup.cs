@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.Swagger;
 
 namespace CPN.UI.WebAPI
 {
@@ -38,7 +39,7 @@ namespace CPN.UI.WebAPI
             
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc(ApiConfigurationConsts.ApiVersionV1, new Info { Title = ApiConfigurationConsts.ApiName, Version = ApiConfigurationConsts.ApiVersionV1 });
+                options.SwaggerDoc(ApiConfigurationConsts.ApiVersionV1, new Info { title = ApiConfigurationConsts.ApiName, version = ApiConfigurationConsts.ApiVersionV1 });
 
                 options.AddSecurityDefinition("oauth2", new OAuth2Scheme
                 {

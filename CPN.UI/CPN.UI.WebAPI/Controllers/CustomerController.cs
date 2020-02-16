@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityServer4.AccessTokenValidation;
 using CPN.Application.Interfaces;
 using CPN.Application.ViewModels;
 using CPN.UI.WebAPI.Configuration;

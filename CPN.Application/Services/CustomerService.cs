@@ -1,16 +1,21 @@
 ﻿using CPN.Application.Interfaces;
 using CPN.Application.ViewModels;
-using CPN.Domain.Interfaces.Repository;
+using CPN.Infra.Data;
+using CPN.Infra.Data.Interfaces;
+using CPN.Model.Entities;
 
 namespace CPN.Application.Services
 {
-    public class CustomerService : ICustomerService
+    public class CustomerService : EntityService<Customer>, ICustomerService
     {
 
-        private ICustomerRepository _customerRepository;
+        IUnitOfWork _unitOfWork;
+        ICustomerRepository _customerRepository;
 
-        public CustomerService(ICustomerRepository customerRepository)
+        public CustomerService(IUnitOfWork unitOfWork, ICustomerRepository customerRepository)
+            : base(unitOfWork, customerRepository)
         {
+            _unitOfWork = unitOfWork;
             _customerRepository = customerRepository;
         }
 
@@ -18,8 +23,9 @@ namespace CPN.Application.Services
         {
             return new CustomerViewModel()
             {
-                Customers = _customerRepository.GetCustomers()
+                Customers = _customerRepository.GetAll()
             };
         }
     }
 }
+

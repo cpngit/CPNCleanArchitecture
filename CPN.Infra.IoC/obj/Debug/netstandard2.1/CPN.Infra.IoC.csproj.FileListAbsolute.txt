@@ -1,0 +1,15 @@
+D:\sources\cpn\CPN.Infra.IoC\obj\Debug\netstandard2.1\CPN.Infra.IoC.csprojAssemblyReference.cache
+D:\sources\cpn\CPN.Infra.IoC\obj\Debug\netstandard2.1\CPN.Infra.IoC.AssemblyInfoInputs.cache
+D:\sources\cpn\CPN.Infra.IoC\obj\Debug\netstandard2.1\CPN.Infra.IoC.AssemblyInfo.cs
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Infra.IoC.deps.json
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Infra.IoC.dll
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Infra.IoC.pdb
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Application.dll
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Infra.Data.dll
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Model.dll
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Application.pdb
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Infra.Data.pdb
+D:\sources\cpn\CPN.Infra.IoC\bin\Debug\netstandard2.1\CPN.Model.pdb
+D:\sources\cpn\CPN.Infra.IoC\obj\Debug\netstandard2.1\CPN.Infra.IoC.csproj.CopyComplete
+D:\sources\cpn\CPN.Infra.IoC\obj\Debug\netstandard2.1\CPN.Infra.IoC.dll
+D:\sources\cpn\CPN.Infra.IoC\obj\Debug\netstandard2.1\CPN.Infra.IoC.pdb
